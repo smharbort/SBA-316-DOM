@@ -2,7 +2,7 @@
 // https://www.youtube.com/watch?v=ymDjvycjgUM
 
 
-let newX = 50, newY = 50, startX = 50, startY = 50;
+let newX = 0, newY = 0, startX = 0, startY = 0;
 
 const card = document.getElementById("card");
 
