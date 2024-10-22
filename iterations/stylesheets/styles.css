@@ -3,19 +3,20 @@ body {
     margin: 0;
 }
 
-#container {
+.container {
     background-color: rgb(255, 253, 253);
     background-image: linear-gradient(whitesmoke .2em, transparent .2em),
     linear-gradient(90deg, whitesmoke .2em, transparent .2em);
     background-size: 5em 5em;
     height: 85vh;
     width: 85vw;
+    margin: 100px auto;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-#card {
+.card {
     width: 525px;
     height: 300px;
     background-color: #AFDA9F;

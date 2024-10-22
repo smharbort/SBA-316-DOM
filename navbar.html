@@ -1,0 +1,88 @@
+<nav class="navbar sticky-top custom-navbar">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-2">
+
+                <!-- CLICK BUTTON FOR LEFT OFFCANVAS MENU -->
+                <button class="btn custom-navbar-btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">Menu</button>
+                
+                <!-- OFFCANVAS DIV -->
+                <div class="offcanvas offcanvas-start custom-offcanvas" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+                    
+                    <div class="custom-offcanvas-menu-options">
+
+                        <!-- USER PROFILE & IMAGE -->
+                        <div class="container">
+                            <a class="" type="button" href="#">User Profile</a>
+                        </div>
+                    
+                        <!-- DASHBOARD OPTIONS -->
+                        <div class="container offcanvas-dashboard-options text-center">
+                            <h3 class="how-many-programmers-does-it-take-to-change-a-lightbulb-none-thats-a-hardware-problem">Dashboards</h3>
+
+                            <!-- Idea here is that each offcanvas dropdown option/each card on what I'll call the 'interactive dashboard pad' (main container div)
+                                can open up into a fully expanded page to do more stuff with each category than you can on the primary Finance or
+                                Inventory Management Dashboard. Think Firebase 'Functions',  'Hosting', 'Storage' options under the 'Build' dropdown on sidebar-->
+                            <div>
+                                <h6 class="how-many-programmers-does-it-take-to-change-a-lightbulb-none-thats-a-hardware-problem">Tasks</h6>
+                                <select name="Tasks">
+                                    <!-- 'Sticky Notes' idea being that I have a separate dashboard dedicated to to-dos and maybe Kanban for personal projects, and then I
+                                    can label them for the relevant dashboard, and they will appear on the to-do card for that dashboard, and can be interacted with
+                                    (i.e. checkmark as done) -->
+                                    <option>Sticky Notes</option>
+                                    <option>Kanban</option>
+                                </select>
+                            </div>
+                            <div>
+                                <h6><a href="./finance-dash.html">Finance</a></h6>
+                                <select name="Finance">
+                                    <option>To-Do</option>
+                                    <option>Settings</option>
+                                    <option>Charts</option>
+                                    <option>Budget</option>
+                                    <option>Statements</option>
+                                    <option>Investments</option>
+                                    <option>Retirement Portfolio</option>
+                                </select>
+                            </div>
+                            <div>
+                                <h6><a href="./inventory-management-dash.html">Inventory Management</a></h6>
+                                <select name="Inventory Management">
+                                    <option>To-Do</option>
+                                    <option>Settings</option>
+                                    <option>Search</option>
+                                    <option>View/Manage Locations</option>
+                                    <option>Statistics</option>
+                                    <option>On-hands</option>
+                                    <option>QR Code Generator</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- BACK TO NAVBAR 'BUTTONS' -->
+            <div class="col-1"></div>
+
+            <!-- Optify Logo (placeholder, anyway) -->
+            <div class="col-3">
+                <div class="container custom-branding-container">
+                    <div class="container brand-logo-container">
+                        <a href="index.html"><img src="../assets/O-Letter-PNG-Clipart (1).png" alt="O" id="brand-image"></a>
+                        <h3>ptify</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="col-1"></div>
+
+            <!-- REST OF NAVBAR BUTTONS -->
+            <div class="col-2">
+                <button class="btn custom-navbar-btn" type="button"><a href="./login-page.html">Login</a></button>
+            </div>
+            <div class="col-2">
+                <button class="btn custom-navbar-btn" type="button"><a href="./sign-up-page.html">Sign Up</a></button>
+            </div>
+        </div>
+    </div>
+</nav>

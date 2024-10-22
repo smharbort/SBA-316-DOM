@@ -29,8 +29,7 @@ function mouseMove (e) {
     // console.log({newX, newY});
     // console.log({startX, startY});
 }
- 
+    
 function mouseUp (e) {
-    document.removeEventListener("mousemove", mouseMove)
+    document.removeEventListener("mousemove", mouseMove);
 }
-
